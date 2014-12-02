@@ -1,0 +1,16 @@
+package empleados;
+
+public class Empleado {
+
+		private String nombre;
+		private String apellidos;
+		private String titulacion;
+		private String dni;
+		private String nuss;
+		private int edad;
+		private boolean sexo;
+		
+		private String presentarFijo(){
+			return "";
+		}
+}

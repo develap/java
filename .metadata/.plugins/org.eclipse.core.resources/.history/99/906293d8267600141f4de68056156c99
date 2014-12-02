@@ -1,0 +1,11 @@
+package Fruticola;
+
+public class Fruta {
+	
+	private int diametro;
+	private String arbol;
+	
+	String vender(Fruta fruta){
+		return "";
+	}
+}

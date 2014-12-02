@@ -1,0 +1,7 @@
+package argumentos.variables;
+
+public class VarArguments {
+	public void foo(int i, String... strings) {
+		
+	}
+}

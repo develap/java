@@ -1,0 +1,5 @@
+package Comprar;
+
+public interface Comprar {
+
+}

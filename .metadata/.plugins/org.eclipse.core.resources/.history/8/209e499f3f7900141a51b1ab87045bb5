@@ -1,0 +1,5 @@
+package Fruticola;
+
+public interface Comer {
+
+}

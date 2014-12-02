@@ -1,0 +1,11 @@
+package ejemplo;
+
+public class Main {
+
+	public static void main(String[] args) throws MiExcepcion {
+		
+		MiExcepcion exp = new MiExcepcion("Hola");
+		exp.lanzarExcepcion();
+	}
+
+}

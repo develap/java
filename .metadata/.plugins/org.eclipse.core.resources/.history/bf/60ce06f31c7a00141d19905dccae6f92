@@ -1,0 +1,30 @@
+package empleados;
+
+import java.util.ArrayList;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		ArrayList<Empleado> empleados = new ArrayList<>();
+		
+		for(int i=0; i<10; i++){
+			empleados.add(new EmpleadoAsalariado(i*1000));
+			Empleado tmpEmp = empleados.get(i); 
+			tmpEmp.setNombre(Integer.toString(i));
+			
+			try {
+				tmpEmp.setDni("20464764P");
+			} catch (Exception e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			
+		}
+		
+		for(Empleado emp:empleados)
+			System.out.println(emp.presentarInfo());
+			
+	}
+
+}

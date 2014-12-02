@@ -1,0 +1,41 @@
+package java;
+
+public class Coche {
+	
+	String marca;
+	String modelo;
+	String color;
+	String matricula;
+	float velocidad;
+	float maxDeposito;
+	float ltrDepostio;
+	boolean[] stadoPuertas;
+	int revoluciones;
+	
+	
+	
+	Coche(){
+		
+	}
+	
+	void acelerar(){
+		
+	}
+	
+	void embrague(){
+		
+	}
+	
+	boolean llenarDeposito(float litros){
+		
+	}
+	
+	void girarDerecha(){
+		
+	}
+	
+	void girarIzquierda(){
+		
+	}
+		
+}

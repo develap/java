@@ -1,0 +1,28 @@
+package ejemplo;
+
+
+public class Excepcion extends Exception{
+	
+	private String action;
+
+	/**
+	 * @param action
+	 */
+	public Excepcion(String action) {
+		super();
+		this.action = action;
+	}
+
+	public String getAction() {
+		return action;
+	}
+
+	public void setAction(String action) {
+		this.action = action;
+	}
+	
+	public void lanzarExcepcion(){
+		
+	}
+	
+}

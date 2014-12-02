@@ -1,0 +1,19 @@
+package empleados;
+
+import java.util.ArrayList;
+
+
+public class Empleado {
+
+		private String nombre;
+		private String apellidos;
+		private ArrayList<String> titulaciones;
+		private String dni;
+		private String nuss;
+		private int edad;
+		private boolean sexo;
+		
+		private String presentarFijo(){
+			return "";
+		}
+}

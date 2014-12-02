@@ -1,0 +1,7 @@
+package argumentos.variables;
+
+
+public class Main {
+	VarArguments obj = new VarArguments();
+		
+}

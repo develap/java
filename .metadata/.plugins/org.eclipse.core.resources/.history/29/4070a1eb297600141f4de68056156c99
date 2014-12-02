@@ -1,0 +1,12 @@
+package Fruticola;
+
+public class Manzana extends Fruta{
+
+	public Manzana(int diametro, String arbol) {
+		super(diametro, arbol);
+	}
+
+	String vender(Fruta fruta){
+		return "";
+	}
+}

@@ -1,0 +1,21 @@
+package Fruticola;
+
+public class Fruta {
+	
+	private int diametro;
+	
+	
+	public int getDiametro() {
+		return diametro;
+	}
+
+	public void setDiametro(int diametro) {
+		this.diametro = diametro;
+	}
+
+	private String arbol;
+	
+	String vender(Fruta fruta){
+		return "";
+	}
+}

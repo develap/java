@@ -1,0 +1,22 @@
+package empleados;
+
+public class EmpleadosPorHoras extends Empleado{
+
+	private Integer precioHora;
+
+	/**
+	 * @param precioHora
+	 */
+	public EmpleadosPorHoras(Integer precioHora) {
+		super();
+		this.precioHora = precioHora;
+	}
+
+	public Integer getPrecioHora() {
+		return precioHora;
+	}
+
+	public void setPrecioHora(Integer precioHora) {
+		this.precioHora = precioHora;
+	}
+}

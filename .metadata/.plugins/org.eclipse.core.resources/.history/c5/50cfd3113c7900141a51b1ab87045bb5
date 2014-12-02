@@ -1,0 +1,26 @@
+package Fruticola;
+
+public class Fuji extends Manzana{
+
+	
+	/**
+	 * @param precio
+	 * @param color
+	 * @param azucar
+	 */
+	public Fuji(double precio, String color, double azucar) {
+		super();
+		this.precio = precio;
+		this.color = color;
+		this.azucar = azucar;
+		System.out.println("Fuji");
+	}
+
+	
+	public void comer() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	
+}

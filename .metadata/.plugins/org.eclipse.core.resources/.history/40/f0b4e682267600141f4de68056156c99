@@ -1,0 +1,10 @@
+package Fruticola;
+
+public class Golden {
+
+	private float precio;
+	private String color;
+	private double azucar;
+		
+	
+}

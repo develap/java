@@ -1,0 +1,18 @@
+package Fruticola;
+
+public abstract class Manzana extends Fruta{
+
+	public Manzana() {
+		super();
+	}
+
+	public abstract static String vender(Fruta fruta);
+	/*
+	{
+		contador++;
+		System.out.println("Manzana");
+		return "Vender manzana";
+	}
+	*/
+
+}

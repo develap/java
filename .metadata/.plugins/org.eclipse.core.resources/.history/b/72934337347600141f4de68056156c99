@@ -1,0 +1,52 @@
+package Fruticola;
+
+public class Pera extends Fruta{
+
+	private double precio;
+	private String color;
+	private double azucar;
+	
+
+	/**
+	 * @param precio
+	 * @param color
+	 * @param azucar
+	 */
+	public Pera(double precio, String color, double azucar) {
+		super();
+		this.precio = precio;
+		this.color = color;
+		this.azucar = azucar;
+	}
+	
+
+	public double getPrecio() {
+		return precio;
+	}
+
+	public void setPrecio(double precio) {
+		this.precio = precio;
+	}
+
+	public String getColor() {
+		return color;
+	}
+
+	public void setColor(String color) {
+		this.color = color;
+	}
+
+	public double getAzucar() {
+		return azucar;
+	}
+
+	public void setAzucar(double azucar) {
+		this.azucar = azucar;
+	}
+	
+	public String vender(Fruta fruta){
+		contador++;
+		return "Vender pera";
+	}
+	
+}

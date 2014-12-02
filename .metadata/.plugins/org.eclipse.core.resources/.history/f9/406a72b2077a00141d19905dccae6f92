@@ -1,0 +1,19 @@
+package interfaz;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		IEjemplo ie = new IEjemplo() {
+			
+			@Override
+			public void foo() {
+				System.out.println("Foo!");
+			}
+		};
+		
+		
+		ie.foo();
+	}
+
+}

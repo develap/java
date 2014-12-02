@@ -1,0 +1,12 @@
+package Fruticola;
+
+public class Melocoton {
+
+	private double precio;
+	private String color;
+	private double azucar;
+	
+	String vender(Fruta fruta){
+		return "";
+	}
+}

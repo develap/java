@@ -1,0 +1,5 @@
+package argumentos.variables;
+
+public class VarArguments {
+
+}

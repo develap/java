@@ -1,0 +1,8 @@
+package empleados;
+
+public class EmpleadosPorHoras extends Empleado{
+
+	private Integer precioHora;
+	
+	
+}
