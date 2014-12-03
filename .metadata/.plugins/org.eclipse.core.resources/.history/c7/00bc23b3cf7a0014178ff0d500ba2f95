@@ -1,0 +1,19 @@
+package ejemplo;
+
+import javax.swing.JOptionPane;
+
+public class Main {
+
+	public static void main(String[] args) {
+		MyClass obj = new MyClass();
+		int[] vec = obj.devuelveVector();
+		
+		System.out.println("Main vec ref = " + vec);
+		
+		for(int elem:vec)
+			System.out.println(elem);
+		
+		//JOptionPane.showMessageDialog(null, "Length of vec is " + vec.length);
+	}
+
+}

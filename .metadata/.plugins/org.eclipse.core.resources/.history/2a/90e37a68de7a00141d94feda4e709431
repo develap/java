@@ -1,0 +1,35 @@
+package ejemplo;
+
+import retorno.funciones.MyClass.Persona;
+
+public class Main {
+
+	public static void main(String[] args) {
+		MyClass obj = new MyClass();
+		int[] vec = obj.devuelveVector();
+		
+		System.out.println("Main vec ref = " + vec);
+		
+		for(int elem:vec)
+			System.out.println(elem);
+		
+		/*** O También se puede:
+		 * 
+			for(int elem:obj.devuelveVector())
+				System.out.println(elem);
+		 ***/
+		
+		//JOptionPane.showMessageDialog(null, "Length of vec is " + vec.length);
+		
+		
+		
+		/*
+		 * Recorrer un vector de personas:
+		 */
+		
+		Persona[] vecPersonas = obj.devuelveVectorPersona(); //new Persona[]{};
+		System.out.println(vecPersonas);
+		for(Persona per:vecPersonas)
+			System.out.println(per);
+	}
+}

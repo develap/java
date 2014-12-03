@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_Cs4-AHrnEeSH0JezWBIDtw" name="model">
+  <packagedElement xmi:type="uml:Model" xmi:id="_AzCrAHroEeSH0JezWBIDtw" name="generated">
+    <packagedElement xmi:type="uml:Package" xmi:id="_AzVl8HroEeSH0JezWBIDtw" name="Comprar">
+      <packagedElement xmi:type="uml:Interface" xmi:id="_AzVl8XroEeSH0JezWBIDtw" name="Comprar">
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_AzfW8HroEeSH0JezWBIDtw" name="centenares"/>
+      </packagedElement>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>
