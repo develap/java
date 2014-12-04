@@ -1,9 +1,0 @@
-package Fruticola;
-
-public class Fuji {
-
-	private float precio;
-	private String color;
-	private double azucar;
-	
-}

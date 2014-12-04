@@ -1,9 +1,0 @@
-package Fruticola;
-
-public class Manzana {
-	
-
-	String vender(Fruta fruta){
-		return "";
-	}
-}

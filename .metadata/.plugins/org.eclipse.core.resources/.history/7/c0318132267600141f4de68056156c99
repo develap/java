@@ -1,6 +1,0 @@
-package Fruticola;
-
-public class Pera {
-
-	float precio;
-}

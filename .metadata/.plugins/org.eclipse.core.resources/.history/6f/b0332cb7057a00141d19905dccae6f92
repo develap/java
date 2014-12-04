@@ -1,8 +1,0 @@
-package argumentos.variables;
-
-public class VarArguments {
-	public void foo(int i, String... strings) {
-		for(String s:strings)
-			System.out.println(s);
-	}
-}
