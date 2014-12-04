@@ -50,8 +50,26 @@ public class Main {
 		
 		
 		// Imprime la información por pantalla
-		for(Empleado emp:empleados)
+		for(Empleado emp:empleados){
+			
+			/* El método presentarInfo() está dentro en las clase Empleado, y es sobrecargada (o sobrescrita?) por
+			 * EmpleadoAsalariado y EmpleadoPorHoras, las cuales heredan de Empleado.
+			 */
 			System.out.println(emp.presentarInfo());
+			
+			/*
+			 * En caso de querer ejecutar un método propio de una clase,
+			 * que no existe en las clases herederas, tendremos que usar un 'casting'
+			 * En este caso también un instanceof, pues el 'casting' no podría convertir EmpleadoAsalariado en EmpleadoPorHoras
+			 * 
+			 * Nos mostraría el siguiente error:
+			 * 
+			 * "empleados.EmpleadoPorHoras cannot be cast to empleados.EmpleadoAsalariado" 
+			 */
+			
+			if (emp instanceof EmpleadoAsalariado)
+				System.out.println("> Sueldo del emplado asalariado = "+ ((EmpleadoAsalariado)emp).getSueldoFijo() );
+		}
 			
 	}
 

@@ -12,6 +12,15 @@ public class EmpleadoAsalariado extends Empleado{
 		this.sueldoFijo = sueldoFijo;
 	}
 
+	/**
+	 * @param nombre
+	 * @param sueldoFijo 
+	 */
+	public EmpleadoAsalariado(String nombre, Integer sueldoFijo) {
+		super(nombre);
+		this.sueldoFijo = sueldoFijo;
+	}
+
 	public Integer getSueldoFijo() {
 		return sueldoFijo;
 	}

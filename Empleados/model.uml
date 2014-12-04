@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_xcHRIHuTEeSalaPIL3QBLw" name="model">
+  <packagedElement xmi:type="uml:Class" xmi:id="_9zuuEHuTEeSalaPIL3QBLw" name="Class1">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_-wxlIHuTEeSalaPIL3QBLw" name="class2" type="_-GD0MHuTEeSalaPIL3QBLw" association="_-wxlI3uTEeSalaPIL3QBLw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-wxlIXuTEeSalaPIL3QBLw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-wxlInuTEeSalaPIL3QBLw" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_-GD0MHuTEeSalaPIL3QBLw" name="Class2"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_-wxlI3uTEeSalaPIL3QBLw" memberEnd="_-wxlJHuTEeSalaPIL3QBLw _-wxlIHuTEeSalaPIL3QBLw">
+    <name xsi:nil="true"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_-wxlJHuTEeSalaPIL3QBLw" name="class1" type="_9zuuEHuTEeSalaPIL3QBLw" association="_-wxlI3uTEeSalaPIL3QBLw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-wxlJXuTEeSalaPIL3QBLw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-wxlJnuTEeSalaPIL3QBLw" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+</uml:Model>
